@@ -1,0 +1,121 @@
+.wrapper {
+
+}
+
+.headers {
+	background-color: red;
+	height: 150 px;
+	width: 100%;
+	padding: 5 px;
+
+
+}
+.body {
+	background-color: blue;
+
+	padding: 5 px;
+
+}
+body {
+	position: relative;
+	}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+  }
+.card.home-carousel{
+	height: auto;
+	direction: rtl;
+	text-align: right;
+	outline: none;
+}
+.card-title{
+	border-bottom: 1px solid #eee;
+	margin-top: -16px;
+}
+.card.home-carousel .card-content{
+	position: relative;
+}
+div{
+	display: block;
+}
+
+.back-arrow i , .forward-arrow i{
+	position: absolute;
+	color: #b9b9b9;
+	top: 50%;
+	margin-top: -25px;
+	font-size: 27px;
+	line-height: 38px;
+	border-radius: 50px;
+	z-index:3;
+
+}
+
+.ion-ios-arrow-back:before {
+    content: "\F1EF";
+}
+
+.ion, .ion:before {
+    display: inline-block;
+    font-family: ion-gilar;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, :after, :before {
+    
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slick-list, .slick-slider{
+	position: relative;
+	display: block;
+
+}
+
+.slick-slider{
+	box-sizing:border-box;
+	touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.slick-carousel .slick-initialized .slick-slider{
+
+  	width: 100%
+}
+.slick-track{
+  	opacity:1;
+  	width: 2240 px;
+  	transform:translate3d(0px,0px,0px);
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+}
+
+element.style{
+	opacity: 1;
+	width: 5364px;
+	transform: translate3d(0px,0px,0px);
+}
+
+
