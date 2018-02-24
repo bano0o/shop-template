@@ -1,39 +1,44 @@
 
 .headers {
-	background-color: red;
 	height: 150 px;
 	width: 100%;
 	padding: 5 px;
-
-
 }
+
 .body {
-	background-color: blue;
-
 	padding: 5 px;
-
 }
+
 body {
 	position: relative;
 	}
+
+	finput-grou{
+		width: 150px;
+	}
+
 .affix {
       top: 0;
       width: 100%;
       z-index: 9999;
   }
-.card.home-carousel{
+
+  .card.home-carousel{
 	height: auto;
 	direction: rtl;
 	text-align: right;
 	outline: none;
 }
+
 .card-title{
 	border-bottom: 1px solid #eee;
 	margin-top: -16px;
 }
+
 .card.home-carousel .card-content{
 	position: relative;
 }
+
 div{
 	display: block;
 }
@@ -47,7 +52,6 @@ div{
 	line-height: 38px;
 	border-radius: 50px;
 	z-index:3;
-
 }
 
 .ion-ios-arrow-back:before {
@@ -68,24 +72,12 @@ div{
 }
 
 *, :after, :before {
-    
     box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
-
 
 .slick-list, .slick-slider{
 	position: relative;
 	display: block;
-
 }
 
 .slick-slider{
@@ -96,9 +88,9 @@ div{
 }
 
 .slick-carousel .slick-initialized .slick-slider{
-
   	width: 100%
 }
+
 .slick-track{
   	opacity:1;
   	width: 2240 px;
@@ -115,4 +107,6 @@ element.style{
 	transform: translate3d(0px,0px,0px);
 }
 
-
+.navbar-inverse{
+	background-color: #f1f1f1;
+}
