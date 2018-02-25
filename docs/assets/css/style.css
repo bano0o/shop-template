@@ -110,3 +110,21 @@ element.style{
 .img{
 	text-align: left;
 }
+.logo-box{
+	text-align:left;
+}
+
+ul.top-links{
+line-height: 5px;
+margin-bottom: 15px;
+}
+ul.top-links li {
+padding: 10px 0px 15px 15px;
+}
+
+.col-sm-2{
+	width: 6.6%;
+}
+.col-sm-4{
+	width:43.3%;
+}
