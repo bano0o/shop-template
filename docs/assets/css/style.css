@@ -107,11 +107,10 @@ element.style{
 	background-color: #f1f1f1;
 }
 
-.img{
-	text-align: left;
-}
+
 .logo-box{
 	text-align:left;
+	padding-bottom: 25px;
 }
 
 ul.top-links{
@@ -119,12 +118,20 @@ line-height: 5px;
 margin-bottom: 15px;
 }
 ul.top-links li {
-padding: 10px 0px 15px 15px;
+padding: 10px 0px 10px 15px;
 }
 
-.col-sm-2{
-	width: 6.6%;
+.form-style{
+	width:491px;
+	display: inline-block;
 }
-.col-sm-4{
-	width:43.3%;
+.input-group{
+	width:auto;
 }
+
+.btn{
+	vertical-align:top;
+}
+
+
+
