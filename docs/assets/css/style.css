@@ -128,9 +128,8 @@ display: inline;
 	vertical-align: top;
 	
 }
-.input-style{
-	margin-top:-49px;
-	margin-right:110px;
-	
+.cart-btn{
+	width: 112px;
+	float: right;
 }
 
