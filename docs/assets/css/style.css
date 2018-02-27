@@ -2,9 +2,6 @@
 	width: 100%;
 }
 
-.body {
-}
-
 body {
 	position: relative;
 	}
@@ -33,10 +30,6 @@ body {
 
 .card.home-carousel .card-content{
 	position: relative;
-}
-
-div{
-	display: block;
 }
 
 .back-arrow i , .forward-arrow i{
@@ -119,19 +112,25 @@ margin-bottom: 15px;
 }
 ul.top-links li {
 padding: 10px 0px 10px 15px;
+list-style-type: none;
+display: inline;
 }
 
 .form-style{
-	width:491px;
+	width:431px;
 	display: inline-block;
 }
 .input-group{
 	width:auto;
+	
 }
-
 .btn{
-	vertical-align:top;
+	vertical-align: top;
+	
 }
-
-
+.input-style{
+	margin-top:-49px;
+	margin-right:110px;
+	
+}
 
