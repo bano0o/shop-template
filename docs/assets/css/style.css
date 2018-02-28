@@ -130,15 +130,21 @@ display: inline;
 }
 .cart-box{
 	display: inline-block;
+	width:110px;
 }
 
 .cart-icon-container , .cart-button-container{
 	background-color: #4caf50;
-	width: 36px;
 	display: inline-block;
 }
-
+.cart-icon-container {
+	width: 15px;
+}
+.cart-button-container{
+	width:25px;
+	padding-right: 20px;
+}
 .search-box{
 	display: inline-block;
-	padding-right:50px;
+	padding-right:18px;
 }
