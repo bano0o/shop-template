@@ -128,8 +128,17 @@ display: inline;
 	vertical-align: top;
 	
 }
-.cart-btn{
-	width: 112px;
-	float: right;
+.cart-box{
+	display: inline-block;
 }
 
+.cart-icon-container , .cart-button-container{
+	background-color: #4caf50;
+	width: 36px;
+	display: inline-block;
+}
+
+.search-box{
+	display: inline-block;
+	padding-right:50px;
+}
