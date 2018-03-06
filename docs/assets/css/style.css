@@ -1,9 +1,18 @@
+@font-face{
+	font-family:"Yekan";
+	src:
+	  url('fonts/WebYekan.eot') format('eot'),
+	  url('fonts/WebYekan.ttf') format('ttf'),
+	  url('fonts/WebYekan.woff') format('woff');
+  }
+
 .headers {
 	width: 100%;
 }
 
 body {
 	position: relative;
+	font-family: Yekan;
 	}
 
 	finput-grou{
@@ -73,7 +82,6 @@ body {
 	box-sizing:border-box;
 	touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
-
 }
 
 .slick-carousel .slick-initialized .slick-slider{
@@ -100,14 +108,13 @@ element.style{
 	background-color: #f1f1f1;
 }
 
-
 .logo-box{
 	text-align:left;
 	padding-bottom: 25px;
 }
 
 ul.top-links{
-line-height: 5px;
+line-height: 42px;
 margin-bottom: 15px;
 }
 ul.top-links li {
@@ -122,29 +129,8 @@ display: inline;
 }
 .input-group{
 	width:auto;
-	
-}
-.btn{
-	vertical-align: top;
-	
-}
-.cart-box{
-	display: inline-block;
-	width:110px;
 }
 
-.cart-icon-container , .cart-button-container{
-	background-color: #4caf50;
-	display: inline-block;
-	line-height: 1;
-}
-.cart-icon-container {
-	width: 15px;
-}
-.cart-button-container{
-	width:25px;
-	padding-right: 20px;
-}
 .search-box{
 	display: inline-block;
 	padding-right:18px;
@@ -175,6 +161,8 @@ display: inline;
 	height:35px;
   }
   .cart-text{
+	font-family: Yekan;
+	font-size: 14px;
 	padding:5px;
 	text-align: center;
 	display:inline-block;
@@ -186,7 +174,7 @@ display: inline;
 	border-radius: 3px;
 	width:100%;
 	float:right;
-	height:35px;
+	height:36px;
   
   }
   .shopping-cart-button:hover{
