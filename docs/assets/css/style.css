@@ -1,108 +1,20 @@
 @font-face{
 	font-family:"Yekan";
 	src:
-	  url('fonts/WebYekan.eot') format('eot'),
-	  url('fonts/WebYekan.ttf') format('ttf'),
-	  url('fonts/WebYekan.woff') format('woff');
+	  url('../fonts/WebYekan.eot') format('eot'),
+	  url('../fonts/WebYekan.ttf') format('ttf'),
+	  url('../fonts/WebYekan.woff') format('woff');
   }
 
 .headers {
 	width: 100%;
+
 }
 
 body {
 	position: relative;
 	font-family: Yekan;
 	}
-
-	finput-grou{
-		width: 150px;
-	}
-
-.affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999;
-  }
-
-  .card.home-carousel{
-	height: auto;
-	direction: rtl;
-	text-align: right;
-	outline: none;
-}
-
-.card-title{
-	border-bottom: 1px solid #eee;
-	margin-top: -16px;
-}
-
-.card.home-carousel .card-content{
-	position: relative;
-}
-
-.back-arrow i , .forward-arrow i{
-	position: absolute;
-	color: #b9b9b9;
-	top: 50%;
-	margin-top: -25px;
-	font-size: 27px;
-	line-height: 38px;
-	border-radius: 50px;
-	z-index:3;
-}
-
-.ion-ios-arrow-back:before {
-    content: "\F1EF";
-}
-
-.ion, .ion:before {
-    display: inline-block;
-    font-family: ion-gilar;
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    text-rendering: auto;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-}
-
-*, :after, :before {
-    box-sizing: border-box;
-}
-
-.slick-list, .slick-slider{
-	position: relative;
-	display: block;
-}
-
-.slick-slider{
-	box-sizing:border-box;
-	touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-carousel .slick-initialized .slick-slider{
-  	width: 100%
-}
-
-.slick-track{
-  	opacity:1;
-  	width: 2240 px;
-  	transform:translate3d(0px,0px,0px);
-}
-
-.slick-slider .slick-list, .slick-slider .slick-track {
-    transform: translateZ(0);
-}
-
-element.style{
-	opacity: 1;
-	width: 5364px;
-	transform: translate3d(0px,0px,0px);
-}
 
 .navbar-inverse{
 	background-color: #f1f1f1;
@@ -112,13 +24,20 @@ element.style{
 	text-align:left;
 	padding-bottom: 25px;
 }
-
+.logo-box img{
+	margin-top:-39px;
+}
+.top-links{
+	font-family: yekan;
+	font-size: 12px;
+	color:#7f848f;
+}
 ul.top-links{
 line-height: 42px;
 margin-bottom: 15px;
 }
 ul.top-links li {
-padding: 10px 0px 10px 15px;
+padding: 10px 10px 10px 35px;
 list-style-type: none;
 display: inline;
 }
@@ -189,4 +108,15 @@ display: inline;
 	display:inline-block;
 	background-color:#62b965;
 	margin-top:7px;
-  }
+	}
+	
+
+
+
+
+	
+	.promotion-badge{
+		direction: rtl;
+		display: inline-block;
+		line-height: 50px;
+	}
