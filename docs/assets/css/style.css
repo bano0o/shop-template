@@ -31,7 +31,20 @@ body {
 	font-family: yekan;
 	font-size: 12px;
 	color:#7f848f;
+	
 }
+a:link{
+	font-family: yekan;
+	font-size: 12px;
+	color:#7f848f;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
 ul.top-links{
 line-height: 42px;
 margin-bottom: 15px;
@@ -41,7 +54,9 @@ padding: 10px 10px 10px 35px;
 list-style-type: none;
 display: inline;
 }
-
+.glyphicon{
+	line-height: 1px;
+}
 .form-style{
 	width:431px;
 	display: inline-block;
