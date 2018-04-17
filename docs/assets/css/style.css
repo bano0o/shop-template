@@ -126,13 +126,75 @@ display: inline;
 	}
 
 
-
-
-
-
 	
 	.promotion-badge{
 		direction: rtl;
 		display: inline-block;
 		line-height: 50px;
 	}
+
+	/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.HeadCarousel{
+	width: 810px;
+	height: 210px;
+	position: relative;
+
+}
+.carousel {
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color:#bbb;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+	left: 0;
+	width: 890px;
+	height:310px;
+}
+
+.carousel-buttons {
+  z-index: 1100;
+  position: absolute;
+  width: 100%;
+  color:#fff;
+  bottom:1px;
+}
+.carousel-buttons > div {
+  padding:20px;
+  border:1px solid #fff;
+}
+.carousel-buttons a {
+  color:#fff;
+  display:block;
+  line-height:50px;
+}
+
+
+/* End of Customizing The Carousel */
+
+
+.panel-footer{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
