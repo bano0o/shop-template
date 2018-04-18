@@ -139,12 +139,12 @@ display: inline;
 /* Carousel base class */
 .HeadCarousel{
 	width: 810px;
-	height: 210px;
 	position: relative;
 
 }
 .carousel {
-  margin-bottom: 60px;
+	margin-bottom: 60px;
+	padding-bottom: 100px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -153,15 +153,10 @@ display: inline;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 600px;
   background-color:#bbb;
 }
 .carousel img {
-  position: absolute;
-  top: 0;
-	left: 0;
-	width: 890px;
-	height:310px;
+
 }
 
 .carousel-buttons {
@@ -169,7 +164,8 @@ display: inline;
   position: absolute;
   width: 100%;
   color:#fff;
-  bottom:1px;
+	bottom:1px;
+	background: black;
 }
 .carousel-buttons > div {
   padding:20px;
@@ -183,6 +179,18 @@ display: inline;
 
 
 /* End of Customizing The Carousel */
+
+/* promotion Carousel ============================= */
+
+.sub{
+	wieght: 300px;
+	height: 120px;
+	background: #48d16c;
+}
+
+
+/* End of promotion Carousel */
+
 
 
 .panel-footer{
